@@ -1,0 +1,39 @@
+ul,li,body{
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	width: 100%;
+	margin: 0 auto;			
+}
+.clear::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap div{
+	width: 29.3333%;
+	padding-bottom: 29.3333%;
+	float: left;
+	margin: 2%;
+	border-radius: 10%;
+	background: #f90;
+}
+ul{
+	width: 100%;}
+li{
+	list-style: none;
+	height: 150px;
+	border: 1px solid #f90;
+	border-radius: 5%;
+	background: white;
+	color: #f90;
+	margin-top: 30px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 150px;
+}
+li:hover{
+	color: white;
+	background: #f90;
+}
